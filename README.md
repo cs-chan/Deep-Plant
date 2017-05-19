@@ -20,7 +20,13 @@ The project is open source under BSD-3 license (see the ``` LICENSE ``` file). C
 
 ## Citation 
 ```sh
-Sue Han Lee, Chee Seng Chan, Simon Joseph Mayo, Paolo Remagnino, Pattern Recognition, 2017, dOI:10.1016/j.patcog.2017.05.015
+@article{lee2017PR,
+  title={How Deep Learning Extracts and Learns Leaf Features for Plant Classification},
+  author={Lee, Sue Han and Chan, Chee Seng and Mayo, Simon J and Remagnino, Paolo},
+  journal={Pattern Recognition},
+  year={in Press},
+  publisher={Elsevier}
+}
 ```
 
 ## Dependency
