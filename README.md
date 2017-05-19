@@ -25,6 +25,7 @@ The project is open source under BSD-3 license (see the ``` LICENSE ``` file). C
   author={Lee, Sue Han and Chan, Chee Seng and Mayo, Simon J and Remagnino, Paolo},
   journal={Pattern Recognition},
   year={in Press},
+  doi={10.1016/j.patcog.2017.05.015}
   publisher={Elsevier}
 }
 ```
@@ -73,7 +74,8 @@ Note that users are expected to modify the corresponding files to correct path t
 
 
 ## Feedback
-Suggestions and opinions of this work (both positive and negative) are greatly welcome. Please contact the authors by sending email to ``` adeline87lee@gmail ```
+Suggestions and opinions of this work (both positive and negative) are greatly welcome. Please contact the authors by sending email to
+`adeline87lee at gmail.com` or `cs.chan at um.edu.my`.
 
 ## Lisense
 BSD-3, see ``` LICENSE ``` file for details.
