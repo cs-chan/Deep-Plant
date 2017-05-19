@@ -1,7 +1,7 @@
 
 # How Deep Learning Extracts and Learns Leaf Features for Plant Classification
 
-Pattern Recognition (in Press)
+Released on 19 May 2017
 
 
 ## Description
@@ -25,7 +25,7 @@ Sue Han Lee, Chee Seng Chan, Simon Joseph Mayo, Paolo Remagnino, Pattern Recogni
 
 ## Dependency
 
-* The codes are based on [caffe](http://caffe.berkeleyvision.org/)
+* The codes are based on [Caffe](http://caffe.berkeleyvision.org/)
 
 * Our initial model proposed in [ICIP2015](http://ieeexplore.ieee.org/document/7350839/) was trained and tested on two public leaf datasets - [MalayaKew](http://web.fsktm.um.edu.my/~cschan/downloads_MKLeaf_dataset.html) and [Flavia](http://flavia.sourceforge.net/), while the extension works of hybrid models were trained on a subset of MalayaKew datasets which details are provided in the readme file located at each model's folder.
 
