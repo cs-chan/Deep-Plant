@@ -1,12 +1,12 @@
 
-# How Deep Learning Extracts and Learns Leaf Features for Plant Classification [(PDF)](http://cs-chan.com/doc/PR2017.pdf)
+# How Deep Learning Extracts and Learns Leaf Features for Plant Classification
 
 Released on 19 May 2017
 
 
 ## Description
 
-Our preliminary version of this work was presented earlier in ICIP2015 -- [Deep-plant: Plant identification with convolutional neural networks](http://cs-chan.com/doc/150608425v1.pdf). The present works adds to the initial version with novel hybrid global-local feature extraction models:
+This is the implementation of our PR work with titled [How Deep Learning Extracts and Learns Leaf Features for Plant Classification](http://cs-chan.com/doc/PR2017.pdf). Our preliminary version of this work was presented earlier in ICIP2015 -- [Deep-plant: Plant identification with convolutional neural networks](http://cs-chan.com/doc/150608425v1.pdf). The present works adds to the initial version with novel hybrid global-local feature extraction models:
 
 * Late fusion
 
