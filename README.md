@@ -6,7 +6,7 @@ Released on 19 May 2017
 
 ## Description
 
-Our preliminary version of this work was presented earlier in ICIP2015 -- [Deep-plant: Plant identification with convolutional neural networks](http://ieeexplore.ieee.org/document/7350839/). The present works adds to the initial version with novel hybrid global-local feature extraction models:
+Our preliminary version of this work was presented earlier in ICIP2015 -- [Deep-plant: Plant identification with convolutional neural networks](http://cs-chan.com/doc/150608425v1.pdf). The present works adds to the initial version with novel hybrid global-local feature extraction models:
 
 * Late fusion
 
