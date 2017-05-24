@@ -1,5 +1,5 @@
 
-# How Deep Learning Extracts and Learns Leaf Features for Plant Classification [PDF](http://cs-chan.com/doc/PR2017.pdf)
+# How Deep Learning Extracts and Learns Leaf Features for Plant Classification [(PDF)](http://cs-chan.com/doc/PR2017.pdf)
 
 Released on 19 May 2017
 
