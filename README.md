@@ -20,11 +20,13 @@ The project is open source under BSD-3 license (see the ``` LICENSE ``` file). C
 
 ## Citation 
 ```sh
-@article{lee2017PR,
+@article{Lee20171,
   title={How Deep Learning Extracts and Learns Leaf Features for Plant Classification},
   author={Lee, Sue Han and Chan, Chee Seng and Mayo, Simon J and Remagnino, Paolo},
   journal={Pattern Recognition},
-  year={in Press},
+  volume = {71},
+  page = {1-13}
+  year={2017},
   doi={10.1016/j.patcog.2017.05.015}
   publisher={Elsevier}
 }
