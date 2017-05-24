@@ -1,5 +1,5 @@
 
-# How Deep Learning Extracts and Learns Leaf Features for Plant Classification
+# How Deep Learning Extracts and Learns Leaf Features for Plant Classification [PDF](http://cs-chan.com/doc/PR2017.pdf)
 
 Released on 19 May 2017
 
@@ -14,7 +14,7 @@ Our preliminary version of this work was presented earlier in ICIP2015 -- [Deep-
 
 * Early fusion (conv-sum)
 
-The project is open source under BSD-3 license (see the ``` LICENSE ``` file). Codes can be used freely only for academic purpose and the paper can be downloded at [here](http://cs-chan.com/doc/PR2017.pdf).
+The project is open source under BSD-3 license (see the ``` LICENSE ``` file). Codes can be used freely only for academic purpose.
 
 ![demo](GIF/DeepPlant.gif)
 
