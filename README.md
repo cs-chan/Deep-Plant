@@ -49,7 +49,7 @@ The project is open source under BSD-3 license (see the ``` LICENSE ``` file). C
 
 Option1:
 
-* All the trained models can be downloaded [here](http://web.fsktm.um.edu.my/~cschan/source/PR2017/Model.zip). These models include:
+* All the trained models can be downloaded [here - URL1](http://web.fsktm.um.edu.my/~cschan/source/PR2017/Model.zip) or [here - URL2](http://www.cs-chan.com/source/PR2017/Model.zip). These models include:
 
 	1. Finetuned AlexNet model wrt. whole leaf images (ICIP2015) >> ``` finetune_AlexNet_WL.caffemodel ```
 
