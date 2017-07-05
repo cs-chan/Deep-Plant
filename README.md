@@ -19,6 +19,7 @@ The project is open source under BSD-3 license (see the ``` LICENSE ``` file). C
 ![demo](GIF/DeepPlant.gif)
 
 ## Citation 
+If you find this code useful for your research, please cite
 ```sh
 @article{Lee20171,
   title={How Deep Learning Extracts and Learns Leaf Features for Plant Classification},
