@@ -8,12 +8,11 @@ Released on 10 May 2018
 
 This consists of the implementations of our 
 
-* PR work with titled [How Deep Learning Extracts and Learns Leaf Features for Plant Classification](http://cs-chan.com/doc/PR2017.pdf). Our preliminary version of this work was presented earlier in ICIP2015 -- [Deep-plant: Plant identification with convolutional neural networks](http://cs-chan.com/doc/150608425v1.pdf).
+* [PR2017 work](http://cs-chan.com/doc/PR2017.pdf) with titled [How Deep Learning Extracts and Learns Leaf Features for Plant Classification](http://cs-chan.com/doc/PR2017.pdf). Our preliminary version of this work was presented earlier in ICIP2015 -- [Deep-plant: Plant identification with convolutional neural networks](http://cs-chan.com/doc/150608425v1.pdf). (PR2017 Fol
 
 * ICIP2017 work with titled -- [HGO-CNN: Hybrid generic-organ convolutional neural network for multi-organ plant classification](http://cs-chan.com/doc/ICIP_CR.pdf).
 
-
-
+* IEEE TIP work with titled -- Multi-Organ Plant Classification based on Convolutional and Recurrent Neural Networks.
 
 ## Feedback
 Suggestions and opinions of this work (both positive and negative) are greatly welcome. Please contact the authors by sending email to
