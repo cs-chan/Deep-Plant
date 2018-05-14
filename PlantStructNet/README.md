@@ -14,11 +14,14 @@ The project is open source under BSD-3 license (see the ``` LICENSE ``` file). C
 ## Citation 
 If you find this code useful for your research, please cite:
 ```sh
-@inproceedings{leeetip,
+@article{Lee2018,
   title={Multi-Organ Plant Classification based on Convolutional and Recurrent Neural Networks},
   author={Lee, Sue Han and Chan, Chee Seng and Remagnino, Paolo},
+  journal={IEEE Transactions on Image Processing},
+  volume = {--},
+  page = {---}
   year={Accepted},
-  organization={IEEE Transactions on Image Processing}
+  doi={--}
 }
 ```
 
