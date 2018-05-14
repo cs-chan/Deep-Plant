@@ -1,0 +1,18 @@
+net: "/home/titanz/caffe_v3/caffe_vis/caffe/examples/PlantClefOldData_augment/VGGClef_MultiPath_SpeciesOrganFinal_3_conv_unlocked/PlantClef_VGGmultipath.prototxt"
+test_iter: 1000
+test_interval: 1000
+# lr for fine-tuning should be lower than when starting from scratch
+base_lr: 0.00001
+lr_policy: "fixed"
+#gamma: 0.1
+# stepsize should also be lower, as we're closer to being done
+# stepsize: 20000
+display: 1000
+max_iter: 900000
+momentum: 0.9
+weight_decay: 0.0001
+snapshot: 10000
+snapshot_prefix: "/media/titanz/data3TB_02/PlantClefolddata_augmented/model_speciesorgan_final_concatR_3_unlocked/PlantClef_vgg_species_organ"
+# uncomment the following to default to CPU mode solving
+# solver_mode: CPU
+iter_size: 3

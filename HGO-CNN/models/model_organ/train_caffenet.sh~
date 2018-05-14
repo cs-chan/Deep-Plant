@@ -1,0 +1,22 @@
+#!/usr/bin/env sh
+
+#caffe train \
+#    --solver=/home/exx/Documents/VGGClef_MultiPath_Organ/solver.prototxt \
+#--weights=/data/PlantClef/model/multi_path_vgg_imagenet_iter_426094.caffemodel \
+#--gpu=0,1,2
+
+
+#caffe train \
+#    --solver=/home/exx/Documents/VGGClef_MultiPath_Organ/solver.prototxt \
+#--snapshot=/data/PlantClef/model_organ/PlantClef_vgg_organ_iter_47717.solverstate \
+#--gpu=0,1,2
+
+./build/tools/caffe train \
+    --solver=/home/titanz/caffe_v3/caffe_vis/caffe/examples/PlantClefOldData_augment/VGGClef_MultiPath_Organ/solver.prototxt \
+--weights=/media/titanz/data3TB_02/PlantClefolddata/model_organ/PlantClef_vgg_organ_iter_56431.caffemodel \
+--gpu=0
+
+
+#./build/tools/caffe train -solver /home/titanz/caffe_v3/caffe_vis/caffe/examples/PlantClefOldData/VGGClef_MultiPath_SpeciesOrganFinal_3_conv/solver.prototxt --snapshot=/media/titanz/data3TB_02/PlantClefolddata/model_speciesorgan_final_concatR_3/PlantClef_vgg_species_organ_iter_463073.solverstate -gpu 0
+
+#./build/tools/caffe train -solver /home/titanz/caffe_v3/caffe_vis/caffe/examples/PlantClefOldData/VGGClef_MultiPath_SpeciesOrganFinal_3_conv/solver.prototxt -weights /media/titanz/data3TB_02/PlantClefolddata/model_speciesorgan_final_concatR_2/finetune_species/snapshot/PlantClef_vgg_species_organ_iter_325863.caffemodel -gpu 0
