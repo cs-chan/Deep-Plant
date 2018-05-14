@@ -1,0 +1,5 @@
+In this experiment, we adopt MalayaKew dataset and compute a smaller training set.
+Training set for whole leaf image can be downloaded at 
+
+http://web.fsktm.um.edu.my/~cschan/source/PR2017/train_label_new_constrain_patch_Fusion.txt
+ 
