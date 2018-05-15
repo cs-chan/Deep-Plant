@@ -30,7 +30,7 @@ If you find this code useful for your research, please cite:
 * The codes are based on [tensorflow](https://www.tensorflow.org/)
 
 ## Dataset
-* The PlantClef2015 dataset used has 1000 plant species classes. Training and testing data comprises 91759 and 21446 images respectively.
+* The [PlantClef2015 dataset](http://www.imageclef.org/lifeclef/2015/plant) used has 1000 plant species classes. Training and testing data comprise 91759 and 21446 images respectively.
 
 * All the training and testing images are grouped into their respective observation ID (Tagged in PlantClef2015 dataset). Note that, plant images captured from a same plant are tagged with different mediaIDs but the same observation ID.
 
@@ -38,7 +38,7 @@ If you find this code useful for your research, please cite:
 
 	1. Precomputed fc7 features [here](http://web.fsktm.um.edu.my/~cschan/source/TIP2018Plant/fc7_feature.zip).
 
-	2. Preorganised observationID files ``` obs_mediaID.7z ``` from the Dataset folder. It consists of .Mat files that named after plant ObservationIDs. Each Mat. file consists of B cell that stores the information of the respective mediaIDs.
+	2. Preorganised observationID files ``` obs_mediaID.7z ``` from the Dataset folder. It consists of .mat files that named after plant ObservationIDs. Each .mat file consists of B cell that stores the information of the respective mediaIDs.
 
 	3. Lists of ObservationIDs and ground truth species classes from the Dataset folder:
 	* test_obs_list.mat
