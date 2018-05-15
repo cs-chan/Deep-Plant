@@ -1,13 +1,12 @@
 # The Plant-StructNet
 
-IEEE Transactions on Image Processing (accepted)
+Released on May 07, 2018.
 
+IEEE Transactions on Image Processing (accepted)
 
 ## Description
 
 This is the implementation of our T-IP work with titled -- Multi-Organ Plant Classification based on Convolutional and Recurrent Neural Networks.
-
-The project is open source under BSD-3 license (see the ``` LICENSE ``` file). Codes can be used freely only for academic purpose.
 
 ![demo](ezgif.com-resize.gif)
 
@@ -62,7 +61,7 @@ Note that users are expected to modify the corresponding files to correct path t
 
 
 ## Feedback
-Suggestions and opinions of this work (both positive and negative) are greatly welcome. Please contact the authors by sending email to ``` adeline87lee@gmail ``` or ``` cs.chan@um.edu.my ```
+Suggestions and opinions of this work (both positive and negative) are greatly welcome. Please contact the authors by sending email to ``` adeline87lee at gmail.com ``` or ``` cs.chan at um.edu.my ```
 
 ## Lisense
-BSD-3, see ``` LICENSE ``` file for details.
+The project is open source under BSD-3 license (see the ``` LICENSE ``` file). Codes can be used freely only for academic purpose.
