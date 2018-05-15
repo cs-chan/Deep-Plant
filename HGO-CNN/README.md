@@ -11,17 +11,23 @@ This is the implementation of our ICIP2017 work with titled -- [HGO-CNN: Hybrid 
 ## Citation 
 If you find this code useful for your research, please cite:
 ```sh
-@inproceedings{lee2017hgo,
-  title={Hgo-cnn: Hybrid generic-organ convolutional neural network for multi-organ plant classification},
-  author={Lee, Sue Han and Chang, Yang Loong and Chan, Chee Seng and Remagnino, Paolo},
-  year={2017},
-  organization={ICIP}
+@inproceedings{LeeCCR17,
+  author    = {Sue Han Lee and
+               Yang Loong Chang and
+               Chee Seng Chan and
+               Paolo Remagnino},
+  title     = {{HGO-CNN:} Hybrid generic-organ convolutional neural network for multi-organ
+               plant classification},
+  booktitle = {{IEEE} International Conference on Image Processing {ICIP}},
+  pages     = {4462--4466},
+  year      = {2017},
+  doi       = {10.1109/ICIP.2017.8297126},
 }
 ```
 
 ## Dependency
 
-* The codes are based on [caffe](http://caffe.berkeleyvision.org/)
+* The codes are based on [Caffe](http://caffe.berkeleyvision.org/)
 
 ## Dataset
 * The [PlantClef2015 dataset](http://www.imageclef.org/lifeclef/2015/plant) used has 1000 plant species classes. 
