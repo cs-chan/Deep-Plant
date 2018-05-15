@@ -1,6 +1,6 @@
 # HGO-CNN: Hybrid Generic-Organ Convolutional Neural Network For Multi-Organ Plant Classification
 
-Description
+##Description
 
 This is the implementation of our ICIP2017 work with titled -- [HGO-CNN: Hybrid generic-organ convolutional neural network for multi-organ plant classification](http://cs-chan.com/doc/ICIP_CR.pdf).
 
