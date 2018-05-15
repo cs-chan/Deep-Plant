@@ -4,9 +4,6 @@ Description
 
 This is the implementation of our ICIP2017 work with titled -- [HGO-CNN: Hybrid generic-organ convolutional neural network for multi-organ plant classification](http://cs-chan.com/doc/ICIP_CR.pdf).
 
-
-The project is open source under BSD-3 license (see the ``` LICENSE ``` file). Codes can be used freely only for academic purpose.
-
 ![demo1](GIF/ex1.JPG) ![demo](GIF/HGO.gif)
 
 ## Citation 
@@ -54,6 +51,6 @@ If you find this code useful for your research, please cite:
 Suggestions and opinions of this work (both positive and negative) are greatly welcome. Please contact the authors by sending email to ``` adeline87lee at gmail.com ``` and `cs.chan at um.edu.my` 
 
 ## Lisense
-BSD-3, see ``` LICENSE ``` file for details.
+The project is open source under BSD-3 license (see the ``` LICENSE ``` file). Codes can be used freely only for academic purpose.
 
 
