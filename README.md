@@ -1,10 +1,9 @@
 
 # Deep-Plant Code Release
 
-Released on May 19, 2017
-
 Updated on May 15, 2018 (merge HGO-CNN & inc. PlantStructNet in Tensorflow)
 
+Released on May 19, 2017
 
 ## Description
 
