@@ -2,11 +2,11 @@
 
 Released on May 07, 2018.
 
-IEEE Transactions on Image Processing (accepted)
+IEEE Transactions on Image Processing (in Press)
 
 ## Description
 
-This is the implementation of our T-IP work with titled -- Multi-Organ Plant Classification based on Convolutional and Recurrent Neural Networks.
+This is the implementation of our T-IP work with titled [Multi-Organ Plant Classification based on Convolutional and Recurrent Neural Networks](https://ieeexplore.ieee.org/document/8359391/).
 
 
 ![demo](ezgif.com-resize.gif)
@@ -20,8 +20,8 @@ If you find this code useful for your research, please cite:
   journal={IEEE Transactions on Image Processing},
   volume = {--},
   page = {---}
-  year={Accepted},
-  doi={--}
+  year={in Press},
+  doi={10.1109/TIP.2018.2836321}
 }
 ```
 
