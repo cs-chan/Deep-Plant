@@ -9,7 +9,7 @@ IEEE Transactions on Image Processing (in Press)
 This is the implementation of our T-IP work with titled [Multi-Organ Plant Classification based on Convolutional and Recurrent Neural Networks](https://ieeexplore.ieee.org/document/8359391/).
 
 
-![demo](ezgif.com-resize.gif)
+![demo](tip.gif)
 
 ## Citation 
 If you find this code useful for your research, please cite:
