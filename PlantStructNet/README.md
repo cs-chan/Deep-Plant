@@ -1,4 +1,5 @@
 # The Plant-StructNet
+Updated on May 28, 2018 - uploaded precomputed fc7 features (to test)
 
 Released on May 07, 2018.
 
