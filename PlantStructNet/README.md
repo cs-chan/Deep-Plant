@@ -3,11 +3,9 @@ Updated on May 28, 2018 - uploaded precomputed fc7 features (to test)
 
 Released on May 07, 2018.
 
-IEEE Transactions on Image Processing (in Press)
-
 ## Description
 
-This is the implementation of our T-IP work with titled [Multi-Organ Plant Classification based on Convolutional and Recurrent Neural Networks](https://ieeexplore.ieee.org/document/8359391/).
+This is the implementation of our IEEE Transactions on Image Processing (T-IP) work with titled [Multi-Organ Plant Classification based on Convolutional and Recurrent Neural Networks](https://ieeexplore.ieee.org/document/8359391/).
 
 <img src="tip.gif" width="50%">
 
@@ -36,7 +34,7 @@ If you find this code useful for your research, please cite:
 
 * Please download the:
 
-	1. Precomputed fc7 features [here (for training)](http://www.cs-chan.com/source/DeepPlant/conv_f7_trainAL.zip) and [here (for testing)](http://www.cs-chan.com/source/DeepPlant/conv_fc7_test_256.zip).
+	1. Precomputed fc7 features [here (for training, coming soon)]() and [here (for testing)](http://www.cs-chan.com/source/DeepPlant/conv_fc7_test_256.zip).
 
 	2. Preorganised observationID files ``` obs_mediaID.7z ``` from the Dataset folder. It consists of .mat files that named after plant ObservationIDs. Each .mat file consists of B cell that stores the information of the respective mediaIDs.
 
