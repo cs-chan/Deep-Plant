@@ -14,8 +14,6 @@ This is the implementation of our PR work with titled [How Deep Learning Extract
 
 * Early fusion (conv-sum)
 
-The project is open source under BSD-3 license (see the ``` LICENSE ``` file). Codes can be used freely only for academic purpose.
-
 ![demo](GIF/DeepPlant.gif)
 
 ## Citation 
@@ -81,4 +79,4 @@ Suggestions and opinions of this work (both positive and negative) are greatly w
 `adeline87lee at gmail.com` or `cs.chan at um.edu.my`.
 
 ## Lisense
-BSD-3, see ``` LICENSE ``` file for details.
+The project is open source under BSD-3 license (see the ``` LICENSE ``` file). Codes can be used freely only for academic purpose.
