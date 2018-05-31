@@ -36,7 +36,7 @@ If you find this code useful for your research, please cite:
 
 * Please download the:
 
-	1. Precomputed fc7 features at [this https URL (for training)](http://www.cs-chan.com/source/DeepPlant/conv_f7_trainAL.zip)(3Gb) and at [this https URL (for testing)](http://www.cs-chan.com/source/DeepPlant/conv_fc7_test_256.zip)(200Mb).
+	1. Precomputed fc7 features at [this https URL (for training)](http://www.cs-chan.com/source/DeepPlant/conv_f7_trainAL.zip)(size = 3Gb) and at [this https URL (for testing)](http://www.cs-chan.com/source/DeepPlant/conv_fc7_test_256.zip)(size = 200Mb).
 
 	2. Preorganised observationID files ``` obs_mediaID.7z ``` from the Dataset folder. It consists of .mat files that named after plant ObservationIDs. Each .mat file consists of B cell that stores the information of the respective mediaIDs.
 
