@@ -17,5 +17,5 @@ This consists of the implementations of our
 Suggestions and opinions of this work (both positive and negative) are greatly welcome. Please contact the authors by sending email to
 `adeline87lee at gmail.com` or `cs.chan at um.edu.my`.
 
-## Lisense
+## License
 The project is open source under BSD-3 license (see the ``` LICENSE ``` file). Codes can be used freely only for academic purpose.
