@@ -18,9 +18,10 @@ If you find this code useful for your research, please cite:
   title={Multi-Organ Plant Classification based on Convolutional and Recurrent Neural Networks},
   author={Lee, Sue Han and Chan, Chee Seng and Remagnino, Paolo},
   journal={IEEE Transactions on Image Processing},
-  volume = {--},
-  page = {---}
-  year={in Press},
+  volume = {27},
+  issue = {9},
+  page = {4287 - 4301},
+  year={2018},
   doi={10.1109/TIP.2018.2836321}
 }
 ```
