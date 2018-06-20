@@ -16,7 +16,7 @@ update soon..
 
 ## Dependency
 
-* The codes are based on [tensorflow](https://www.tensorflow.org/)
+* The codes are based on [tensorflow](https://www.tensorflow.org/).
 
 ## Dataset
 * PlantClef image dataset can be downloaded at [this https URL](http://www.imageclef.org/lifeclef/2015/plant).
@@ -53,7 +53,7 @@ Note that users are expected to modify the corresponding files to correct path t
 
 
 ## Feedback
-Suggestions and opinions of this work (both positive and negative) are greatly welcome. Please contact the authors by sending email to ``` adeline87lee at gmail ``` or ``` cs.chan at um.edu.my ```
+Suggestions and opinions of this work (both positive and negative) are greatly welcome. Please contact the authors by sending email to ``` adeline87lee at gmail.com ``` or ``` cs.chan at um.edu.my ```
 
 ## Lisense
 The project is open source under BSD-3 license (see the ``` LICENSE ``` file). Codes can be used freely only for academic purpose.
