@@ -32,7 +32,7 @@ update soon..
 
 1. Users are required to install [tensorflow](https://www.tensorflow.org/) Library.
 
-2. Users are required to download the necessary files [at this https URL](https://github.com/cs-chan/Deep-Plant/tree/master/PlantStructNet/Dataset) and the aforementioned dataset.
+2. Users are required to download the necessary files at [this https URL](https://github.com/cs-chan/Deep-Plant/tree/master/PlantStructNet/Dataset) and the aforementioned dataset.
 
 3. Users can train the model from scratch by running the ``` mainClef.py ``` which includes ``` temp_createStruct5.py ``` and ``` attn_7_1_ex.py ```.
 
@@ -46,7 +46,7 @@ update soon..
 
 ## Attention visualisation
 
-Users can run the ``` visualClef.py ``` for the visualisation of the coarse and fined attention maps. Sample outputs are shown in 'visual_output' folder
+Users can run the ``` visualClef.py ``` for the visualisation of the coarse and fined attention maps. Sample outputs are shown in [CFA Map Samples](https://github.com/cs-chan/Deep-Plant/tree/master/CFA Map Samples) folder.
 
 
 Note that users are expected to modify the corresponding files to correct path to work properly. Enjoy!
