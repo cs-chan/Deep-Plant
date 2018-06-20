@@ -1,5 +1,6 @@
 
 # Deep-Plant Code Release
+Updated on June 20, 2018 (added GRU-CFA)
 
 Updated on May 15, 2018 (merge HGO-CNN & inc. PlantStructNet in Tensorflow)
 
@@ -9,9 +10,11 @@ Released on May 19, 2017
 
 This consists of the implementations of our 
 
-* PR (2017) with titled [How Deep Learning Extracts and Learns Leaf Features for Plant Classification](http://cs-chan.com/doc/PR2017.pdf). Our preliminary version of this work was presented earlier in ICIP2015 -- [Deep-plant: Plant identification with convolutional neural networks](http://cs-chan.com/doc/150608425v1.pdf). Please refer to the [PR2017](https://github.com/cs-chan/Deep-Plant/tree/master/PR2017) folder.
+* CLEF (2018) with titled Plant Classification based on Gated Recurrent Unit. 
 
 * T-IP (2018) with titled [Multi-Organ Plant Classification based on Convolutional and Recurrent Neural Networks](http://cs-chan.com/doc/TIP_Plant.pdf). Our preliminary version of this work was presented earlier in ICIP2017 -- [HGO-CNN: Hybrid generic-organ convolutional neural network for multi-organ plant classification](http://cs-chan.com/doc/ICIP_CR.pdf). Please refer to the [HGO-CNN](https://github.com/cs-chan/Deep-Plant/tree/master/HGO-CNN) and [PlantStructNet](https://github.com/cs-chan/Deep-Plant/tree/master/PlantStructNet) folders.
+
+* PR (2017) with titled [How Deep Learning Extracts and Learns Leaf Features for Plant Classification](http://cs-chan.com/doc/PR2017.pdf). Our preliminary version of this work was presented earlier in ICIP2015 -- [Deep-plant: Plant identification with convolutional neural networks](http://cs-chan.com/doc/150608425v1.pdf). Please refer to the [PR2017](https://github.com/cs-chan/Deep-Plant/tree/master/PR2017) folder.
 
 ## Feedback
 Suggestions and opinions of this work (both positive and negative) are greatly welcome. Please contact the authors by sending email to
