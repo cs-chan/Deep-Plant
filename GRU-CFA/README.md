@@ -19,12 +19,12 @@ update soon..
 * The codes are based on [tensorflow](https://www.tensorflow.org/)
 
 ## Dataset
-* PlantClef image dataset can be downloaded [at this https URL](http://www.imageclef.org/lifeclef/2015/plant).
+* PlantClef image dataset can be downloaded at [this https URL](http://www.imageclef.org/lifeclef/2015/plant).
 
-* Extract the convolutional features of the HGO-CNN pretrained using [caffe](http://caffe.berkeleyvision.org/). Details of the E-CNN can be found [at this PDF](http://cs-chan.com/doc/TIP_Plant.pdf). 
+* Extract the convolutional features of the HGO-CNN pretrained using [caffe](http://caffe.berkeleyvision.org/). Details of the E-CNN can be read from [this PDF](http://cs-chan.com/doc/TIP_Plant.pdf). 
 
-	1. After downloaded the PlantClef2015 dataset, users have to categorise the images into their respective species classes based on the information provided [at this https URL](http://www.imageclef.org/lifeclef/2015/plant)
-	2. Then, please run the ``` getfeatures.py ``` in the 'CNN' folder to extract the convolutional features from the pretrained [E-CNN](http://www.cs-chan.com/source/DeepPlant/E_CNN.caffemodel) model.
+	1. After downloaded the PlantClef2015 dataset, users have to categorise the images into their respective species classes based on the information provided at [this https URL](http://www.imageclef.org/lifeclef/2015/plant)
+	2. Then, please run the ``` getfeatures.py ``` in the 'CNN' folder to extract the convolutional features from the pretrained [E-CNN](http://www.cs-chan.com/source/DeepPlant/E_CNN.zip) model.
 	    Mean file ``` species_mean_aug.npy ``` and the deploy.prototxt file ``` PlantClef_VGGmultipath_deploy  ``` are provided in the 'CNN' folder to run the code.
 
 
@@ -36,17 +36,17 @@ update soon..
 
 3. Users can train the model from scratch by running the ``` mainClef.py ``` which includes ``` temp_createStruct5.py ``` and ``` attn_7_1_ex.py ```.
 
-4. Users can test the trained model prepared in the 'model' folder.
+4. Users can test the trained RNN model prepared in the [RNN](https://github.com/cs-chan/Deep-Plant/GRU-CFA/RNN) folder.
 
 ## Quantitative Analaysis
 
 1. Users are required to compute the probability outputs via  ``` compute_prob.py ``` 
 
-2. The probability outputs extrated can be evaluated via the two evaluation metrics mentioned [at this https URL](https://github.com/cs-chan/Deep-Plant/tree/master/HGO-CNN/matlab).
+2. The probability outputs extrated can be evaluated via the two evaluation metrics mentioned at [this https URL](https://github.com/cs-chan/Deep-Plant/tree/master/HGO-CNN/matlab).
 
 ## Attention visualisation
 
-Users can run the ``` visualClef.py ``` for the visualisation of the coarse and fined attention maps. Sample outputs are shown in [CFA Map Samples](https://github.com/cs-chan/Deep-Plant/tree/master/CFA Map Samples) folder.
+Users can run the ``` visualClef.py ``` for the visualisation of the coarse and fined attention maps. Sample outputs are shown in [CFA Map Samples](https://github.com/cs-chan/Deep-Plant/GRU-CFA/CFA Map Samples) folder.
 
 
 Note that users are expected to modify the corresponding files to correct path to work properly. Enjoy!
