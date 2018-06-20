@@ -21,9 +21,9 @@ update soon..
 ## Dataset
 * PlantClef image dataset can be downloaded at [this https URL](http://www.imageclef.org/lifeclef/2015/plant).
 
-* Extract the convolutional features of the HGO-CNN pretrained using [caffe](http://caffe.berkeleyvision.org/). Details of the E-CNN can be read from [this PDF](http://cs-chan.com/doc/TIP_Plant.pdf). 
+* Extract the convolutional features of the E-CNN pretrained using [caffe](http://caffe.berkeleyvision.org/). Details of the E-CNN can be read from [this PDF](http://cs-chan.com/doc/TIP_Plant.pdf). 
 
-	1. After downloaded the PlantClef2015 dataset, users have to categorise the images into their respective species classes based on the information provided at [this https URL](http://www.imageclef.org/lifeclef/2015/plant)
+	1. After downloaded the PlantClef2015 dataset, users have to categorise the images into their respective species classes based on the information provided at [this https URL](http://www.imageclef.org/lifeclef/2015/plant).
 	2. Then, please run the ``` getfeatures.py ``` in the 'CNN' folder to extract the convolutional features from the pretrained [E-CNN](http://www.cs-chan.com/source/DeepPlant/E_CNN.zip) model.
 	    Mean file ``` species_mean_aug.npy ``` and the deploy.prototxt file ``` PlantClef_VGGmultipath_deploy  ``` are provided in the 'CNN' folder to run the code.
 
@@ -36,7 +36,7 @@ update soon..
 
 3. Users can train the model from scratch by running the ``` mainClef.py ``` which includes ``` temp_createStruct5.py ``` and ``` attn_7_1_ex.py ```.
 
-4. Users can test the trained RNN model prepared in the [RNN](https://github.com/cs-chan/Deep-Plant/GRU-CFA/RNN) folder.
+4. Users can test the trained RNN model prepared in the [RNN](https://github.com/cs-chan/Deep-Plant/tree/master/GRU-CFA/RNN) folder.
 
 ## Quantitative Analaysis
 
@@ -46,7 +46,7 @@ update soon..
 
 ## Attention visualisation
 
-Users can run the ``` visualClef.py ``` for the visualisation of the coarse and fined attention maps. Sample outputs are shown in [CFA Map Samples](https://github.com/cs-chan/Deep-Plant/GRU-CFA/CFA Map Samples) folder.
+Users can run the ``` visualClef.py ``` for the visualisation of the coarse and fined attention maps. Sample outputs are shown in [CFA Map Samples](https://github.com/cs-chan/Deep-Plant/tree/master/GRU-CFA/CFA Map Samples) folder.
 
 
 Note that users are expected to modify the corresponding files to correct path to work properly. Enjoy!
