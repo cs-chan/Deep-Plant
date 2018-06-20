@@ -7,8 +7,6 @@ CLEF 2018 Best of Labs (in Press)
 
 This is the implementation of our [CLEF 2018](http://clef2018.clef-initiative.eu/) work with titled -- Plant Classification based on Gated Recurrent Unit. We introduce a Coarse-to-Fined Attention (CFA) module where it can locate the local regions that are highly voted by the GRU method in each plant view.
 
-The project is open source under BSD-3 license (see the ``` LICENSE ``` file). Codes can be used freely only for academic purpose.
-
 ![demo](CLEF.gif)
 
 ## Citation 
@@ -21,12 +19,12 @@ update soon..
 * The codes are based on [tensorflow](https://www.tensorflow.org/)
 
 ## Dataset
-* PlantClef image dataset can be downloaded [here](http://www.imageclef.org/lifeclef/2015/plant).
+* PlantClef image dataset can be downloaded [at this https URL](http://www.imageclef.org/lifeclef/2015/plant).
 
-* Extract the convolutional features of the HGO-CNN pretrained using [caffe](http://caffe.berkeleyvision.org/). Details of the HGO-CNN can be obtained [here](http://cs-chan.com/doc/TIP_Plant.pdf). 
+* Extract the convolutional features of the HGO-CNN pretrained using [caffe](http://caffe.berkeleyvision.org/). Details of the E-CNN can be found [at this PDF](http://cs-chan.com/doc/TIP_Plant.pdf). 
 
-	1. After downloaded the PlantClef2015 dataset, users have to categorise the images into their respective species classes based on the information provided [here](http://www.imageclef.org/lifeclef/2015/plant)
-	2. Then, please run the ``` getfeatures.py ``` in the 'CNN' folder to extract the convolutional features from the pretrained [E-CNN](http://cs-chan.com/source/DeepPlant/E_CNN.caffemodel) model.
+	1. After downloaded the PlantClef2015 dataset, users have to categorise the images into their respective species classes based on the information provided [at this https URL](http://www.imageclef.org/lifeclef/2015/plant)
+	2. Then, please run the ``` getfeatures.py ``` in the 'CNN' folder to extract the convolutional features from the pretrained [E-CNN](http://www.cs-chan.com/source/DeepPlant/E_CNN.caffemodel) model.
 	    Mean file ``` species_mean_aug.npy ``` and the deploy.prototxt file ``` PlantClef_VGGmultipath_deploy  ``` are provided in the 'CNN' folder to run the code.
 
 
@@ -34,7 +32,7 @@ update soon..
 
 1. Users are required to install [tensorflow](https://www.tensorflow.org/) Library.
 
-2. Users are required to download the necessary files [here](https://github.com/cs-chan/Deep-Plant/tree/master/PlantStructNet/Dataset) and the aforementioned dataset.
+2. Users are required to download the necessary files [at this https URL](https://github.com/cs-chan/Deep-Plant/tree/master/PlantStructNet/Dataset) and the aforementioned dataset.
 
 3. Users can train the model from scratch by running the ``` mainClef.py ``` which includes ``` temp_createStruct5.py ``` and ``` attn_7_1_ex.py ```.
 
@@ -44,7 +42,7 @@ update soon..
 
 1. Users are required to compute the probability outputs via  ``` compute_prob.py ``` 
 
-2. The probability outputs extrated can be evaluated via the two evaluation metrics mentioned [here](https://github.com/cs-chan/Deep-Plant/tree/master/HGO-CNN/matlab).
+2. The probability outputs extrated can be evaluated via the two evaluation metrics mentioned [at this https URL](https://github.com/cs-chan/Deep-Plant/tree/master/HGO-CNN/matlab).
 
 ## Attention visualisation
 
@@ -55,7 +53,7 @@ Note that users are expected to modify the corresponding files to correct path t
 
 
 ## Feedback
-Suggestions and opinions of this work (both positive and negative) are greatly welcome. Please contact the authors by sending email to ``` adeline87lee@gmail ``` or ``` cs.chan.um@gmail.com ```
+Suggestions and opinions of this work (both positive and negative) are greatly welcome. Please contact the authors by sending email to ``` adeline87lee at gmail ``` or ``` cs.chan at um.edu.my ```
 
 ## Lisense
-BSD-3, see ``` LICENSE ``` file for details.
+The project is open source under BSD-3 license (see the ``` LICENSE ``` file). Codes can be used freely only for academic purpose.
