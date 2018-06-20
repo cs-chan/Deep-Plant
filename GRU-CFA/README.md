@@ -46,7 +46,7 @@ update soon..
 
 ## Attention visualisation
 
-Users can run the ``` visualClef.py ``` for the visualisation of the coarse and fined attention maps. Sample outputs are shown in [CFA Map Samples](https://github.com/cs-chan/Deep-Plant/tree/master/GRU-CFA/CFA Map Samples) folder.
+Users can run the ``` visualClef.py ``` for the visualisation of the coarse and fined attention maps. Sample outputs are shown in [CFA Map Samples](https://github.com/cs-chan/Deep-Plant/tree/master/GRU-CFA/CFA%20Map%20Samples) folder.
 
 
 Note that users are expected to modify the corresponding files to correct path to work properly. Enjoy!
