@@ -1,4 +1,4 @@
-# The GRU_CFA
+# The GRU-CFA
 
 CLEF 2018 Best of Labs (in Press)
 
@@ -23,10 +23,10 @@ update soon..
 ## Dataset
 * PlantClef image dataset can be downloaded [here](http://www.imageclef.org/lifeclef/2015/plant).
 
-* Extract the convolutional features of the HGO-CNN pretrained using [caffe](http://caffe.berkeleyvision.org/). Details of the HGO-CNN can be obtained [here](https://ieeexplore.ieee.org/document/8359391/). 
+* Extract the convolutional features of the HGO-CNN pretrained using [caffe](http://caffe.berkeleyvision.org/). Details of the HGO-CNN can be obtained [here](http://cs-chan.com/doc/TIP_Plant.pdf). 
 
 	1. After downloaded the PlantClef2015 dataset, users have to categorise the images into their respective species classes based on the information provided [here](http://www.imageclef.org/lifeclef/2015/plant)
-	2. Then, please run the ``` getfeatures.py ``` in the 'CNN' folder to extract the convolutional features from the pretrained [HGO-CNN](PlantClef_vgg_species_organ_iter_180854.caffemodel) model.
+	2. Then, please run the ``` getfeatures.py ``` in the 'CNN' folder to extract the convolutional features from the pretrained [E-CNN](http://cs-chan.com/source/DeepPlant/E_CNN.caffemodel) model.
 	    Mean file ``` species_mean_aug.npy ``` and the deploy.prototxt file ``` PlantClef_VGGmultipath_deploy  ``` are provided in the 'CNN' folder to run the code.
 
 
