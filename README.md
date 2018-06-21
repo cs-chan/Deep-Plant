@@ -10,7 +10,7 @@ Released on May 19, 2017
 
 This consists of the implementations of our 
 
-* CLEF (2018) with titled Plant Classification based on Gated Recurrent Unit. Please refer to the [GRU-CFA](https://github.com/cs-chan/Deep-Plant/tree/master/GRU-CFA) folder.
+* CLEF (2018) with titled [Plant Classification based on Gated Recurrent Unit](http://cs-chan.com/doc/CLEF2018.pdf). Please refer to the [GRU-CFA](https://github.com/cs-chan/Deep-Plant/tree/master/GRU-CFA) folder.
 
 * T-IP (2018) with titled [Multi-Organ Plant Classification based on Convolutional and Recurrent Neural Networks](http://cs-chan.com/doc/TIP_Plant.pdf). Our preliminary version of this work was presented earlier in ICIP2017 -- [HGO-CNN: Hybrid generic-organ convolutional neural network for multi-organ plant classification](http://cs-chan.com/doc/ICIP_CR.pdf). Please refer to the [HGO-CNN](https://github.com/cs-chan/Deep-Plant/tree/master/HGO-CNN) and [PlantStructNet](https://github.com/cs-chan/Deep-Plant/tree/master/PlantStructNet) folders.
 
