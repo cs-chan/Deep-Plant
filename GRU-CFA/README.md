@@ -7,7 +7,7 @@ CLEF 2018 Best of Labs (in Press)
 
 This is the implementation of our [CLEF 2018](http://clef2018.clef-initiative.eu/) work with titled -- [Plant Classification based on Gated Recurrent Unit](http://cs-chan.com/doc/CLEF2018.pdf). We introduce a Coarse-to-Fined Attention (CFA) module where it can locate the local regions that are highly voted by the GRU method in each plant view.
 
-![demo](CLEF2018.gif)
+<img src="CLEF2018.gif" width="50%">
 
 ## Citation 
 ```sh
