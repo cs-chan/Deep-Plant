@@ -53,9 +53,7 @@ If you find this code useful for your research, please cite:
 
 4. After obtaining the HGO-CNN model, softmax probabilities of testing images can be extracted via ```prob_ext.py```.
 
-5. The probability values extrated can be evaluated via the two evaluation metrics mentioned in the ```matlab``` folder.
-
-[ArtGAN](https://github.com/cs-chan/Deep-Plant/tree/master/matlab) folder
+5. The probability values extrated can be evaluated via the two evaluation metrics mentioned in the [matlab](https://github.com/cs-chan/Deep-Plant/tree/master/HGO-CNN/matlab) folder.
 
 ## Feedback
 Suggestions and opinions of this work (both positive and negative) are greatly welcome. Please contact the authors by sending email to ``` adeline87lee at gmail.com ``` and `cs.chan at um.edu.my` 
