@@ -1,5 +1,7 @@
 
 # Deep-Plant Code Release
+Updated on August 14, 2018 (HGO-CNN is updated)
+
 Updated on June 20, 2018 (added GRU-CFA)
 
 Updated on May 15, 2018 (merge HGO-CNN & inc. PlantStructNet in Tensorflow)
