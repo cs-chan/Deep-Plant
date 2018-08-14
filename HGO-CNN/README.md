@@ -1,6 +1,7 @@
 # HGO-CNN: Hybrid Generic-Organ Convolutional Neural Network For Multi-Organ Plant Classification
 
 Updated on August 14, 2018 (New model, organ model, generic model and species model are added.)
+
 Released on Oct 09, 2017.
 
 ## Description
