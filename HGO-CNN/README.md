@@ -43,13 +43,13 @@ If you find this code useful for your research, please cite:
 
 3. Please follows the following step-by-step training strategy to train a HGO-CNN:
 
-    1. A two path CNN is first pre-trained using the ImageNet challenge dataset. New model can be trained via ```train_caffenet.sh``` which can be found in the [two-path_CNN](https://github.com/cs-chan/Deep-Plant/tree/master/HGO-CNN/models/two-path_CNN) folder and the ready trained caffemodel can be downloaded at [this https URL](http://www.cs-chan.com/source/DeepPlant/multi_path_vgg_imagenet_iter_426094.caffemodel) (size=1Gb).
+    1. A two path CNN is first pre-trained using the ImageNet challenge dataset. New model can be trained via ```train_caffenet.sh``` which can be found in the [two-path_CNN](https://github.com/cs-chan/Deep-Plant/tree/master/HGO-CNN/models/two-path_CNN) folder and the ready trained caffemodel can be downloaded at [this https URL](http://www.cs-chan.com/source/DeepPlant/HGO_Pretrained.caffemodel.zip) (size=1Gb).
     
     2. After pre-trained, one of the CNN path is repurposed to train on the *organ* task. New organ model can be trained via ```train_caffenet.sh``` which can be found in the [model_organ](https://github.com/cs-chan/Deep-Plant/tree/master/HGO-CNN/models/model_organ) folder and the ready trained caffemodel can be downloaded at [this https URL](http://www.cs-chan.com/source/DeepPlant/HGO_Organ.caffemodel.zip) (size=1Gb).
 
-    3. After training the organ layer, another CNN path is repurposed for the *generic* task. New generic model can be trained via ```train_caffenet.sh``` which can be found in the [model_generic](https://github.com/cs-chan/Deep-Plant/tree/master/HGO-CNN/models/model_generic) folder and the ready trained caffemodel can be downloaded at [this https URL](http://www.cs-chan.com/source/DeepPlant/PlantClef_vgg_species__iter_200000.caffemodel) (size=1Gb).
+    3. After training the organ layer, another CNN path is repurposed for the *generic* task. New generic model can be trained via ```train_caffenet.sh``` which can be found in the [model_generic](https://github.com/cs-chan/Deep-Plant/tree/master/HGO-CNN/models/model_generic) folder and the ready trained caffemodel can be downloaded at [this https URL](http://www.cs-chan.com/source/DeepPlant/HGO_Generic.caffemodel.zip) (size=1Gb).
 
-   4. Finally, both the organ and generic components are combined to train the *species* layer. New species model can be trained via ```train_caffenet.sh``` which can be found in the [model_species](https://github.com/cs-chan/Deep-Plant/tree/master/HGO-CNN/models/model_species) folder and the ready trained caffemodel can be downloaded at [this https URL](http://www.cs-chan.com/source/DeepPlant/PlantClef_vgg_species_organ_iter_524332.caffemodel) (size=580Mb).
+   4. Finally, both the organ and generic components are combined to train the *species* layer. New species model can be trained via ```train_caffenet.sh``` which can be found in the [model_species](https://github.com/cs-chan/Deep-Plant/tree/master/HGO-CNN/models/model_species) folder and the ready trained caffemodel can be downloaded at [this https URL](http://www.cs-chan.com/source/DeepPlant/HGO_Species.caffemodel.zip) (size=580Mb).
    
    **Note that users are expected to modify the corresponding files to correct path to work properly.
 
