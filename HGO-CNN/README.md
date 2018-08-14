@@ -55,6 +55,8 @@ If you find this code useful for your research, please cite:
 
 5. The probability values extrated can be evaluated via the two evaluation metrics mentioned in the ```matlab``` folder.
 
+[ArtGAN](https://github.com/cs-chan/Deep-Plant/tree/master/matlab) folder
+
 ## Feedback
 Suggestions and opinions of this work (both positive and negative) are greatly welcome. Please contact the authors by sending email to ``` adeline87lee at gmail.com ``` and `cs.chan at um.edu.my` 
 
