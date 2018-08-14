@@ -41,7 +41,7 @@ If you find this code useful for your research, please cite:
 
 3. Please follows the following step-by-step training strategy to train a HGO-CNN:
 
-    1. A two path CNN is first pre-trained using the ImageNet challenge dataset. New model can be trained via ```train_caffenet.sh``` which can be found in the ```models/two-path_CNN```  and the ready trained caffemodel can be downloaded from ```models_HGO/two-path_CNN/multi_path_vgg_imagenet_iter_426094.caffemodel```.
+    1. A two path CNN is first pre-trained using the ImageNet challenge dataset. New model can be trained via ```train_caffenet.sh``` which can be found in the ```models/two-path_CNN```  and the ready trained caffemodel can be downloaded at [this https URL](https://sg2nwvpweb067.shr.prod.sin2.secureserver.net:8443/smb/file-manager/show?file=multi_path_vgg_imagenet_iter_426094.caffemodel).
   
     2. After pre-trained, one of the CNN path is repurposed to train on the *organ* task. New organ model can be trained via ```train_caffenet.sh``` which can be found in the ```models/model_organ``` and the ready trained caffemodel can be downloaded from ```models_HGO/model_organ/PlantClef_vgg_organ_iter_89229.caffemodel```.
 
