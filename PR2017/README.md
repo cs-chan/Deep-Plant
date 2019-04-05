@@ -48,7 +48,7 @@ If you find this code useful for your research, please cite
 
 Option1:
 
-* All the trained models can be downloaded at [this https URL1](http://web.fsktm.um.edu.my/~cschan/source/PR2017/Model.zip), or alternatively at [this https URL2](http://www.cs-chan.com/source/PR2017/Model.zip). These models include:
+* All the trained models can be downloaded at [this https URL1](http://web.fsktm.um.edu.my/~cschan/source/PR2017/Model.zip), or alternatively at [this https URL2](https://drive.google.com/file/d/1fyItBwmZ07YkNM0bALsUDvkhST8cuLWu/view?usp=sharing). These models include:
 
 	1. Finetuned AlexNet model wrt. whole leaf images (ICIP2015) >> ``` finetune_AlexNet_WL.caffemodel ```
 
