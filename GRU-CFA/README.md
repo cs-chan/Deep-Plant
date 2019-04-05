@@ -24,7 +24,7 @@ update soon..
 * Extract the convolutional features of the E-CNN pretrained using [caffe](http://caffe.berkeleyvision.org/). Details of the E-CNN can be read from [this PDF](http://cs-chan.com/doc/TIP_Plant.pdf). 
 
 	1. After downloaded the PlantClef2015 dataset, users have to categorise the images into their respective species classes based on the information provided at [this https URL](http://www.imageclef.org/lifeclef/2015/plant).
-	2. Then, please run the ``` getfeatures.py ``` in the 'CNN' folder to extract the convolutional features from the pretrained [E-CNN](http://www.cs-chan.com/source/DeepPlant/E_CNN.zip) model.
+	2. Then, please run the ``` getfeatures.py ``` in the 'CNN' folder to extract the convolutional features from the pretrained [E-CNN](https://drive.google.com/file/d/1pT_AOf4rwcYPtd1AkeQKHzyzLuT2wlff/view?usp=sharing) model.
 	    Mean file ``` species_mean_aug.npy ``` and the deploy.prototxt file ``` PlantClef_VGGmultipath_deploy  ``` are provided in the 'CNN' folder to run the code.
 
 
